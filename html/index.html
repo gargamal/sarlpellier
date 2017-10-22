@@ -4,106 +4,198 @@
     <link rel="icon" href="../image/favicon.png"/>
 
     <meta charset="UTF-8">
-    <meta name="author" content="Daniel PELLIER" lang="fr"/>
-    <meta http-equiv="refresh" content="43200"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="refresh" content="43200"/>
     <meta name="robots" content="index, follow"/>
+
+    <meta name="author" content="Daniel PELLIER" lang="fr"/>
+
     <meta name="description"
-          content="Fabrice PELLIER et son équipe, sont des artisans couvreur et zingueur vous proposant leur service dans la Sarthe et les environs."/>
+          content="Fabrice PELLIER et son équipe sont des artisans couvreur et zingueur. Ils vous proposant leur service dans la Sarthe et les environs."/>
     <meta name="keywords" content="couverture,zinguerie,72,sarthe"/>
 
-    <title>SARL PELLIER - Couverture et Zinguerie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../framework/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../javascript/main.js"></script>
+    <script src="../javascript/index.js"></script>
+
+    <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
+
 <body>
 
 <!-- Menu -->
-<div>
-    <ul>
-        <li>Acceuil</li>
-        <li>Etanchéité - Membrane EPDM</li>
-        <li>
-            <ul>
-                <li>Sans végétation</li>
-                <li>Végétation</li>
-            </ul>
-        </li>
-        <li>Couverture</li>
-        <li>
-            <ul>
-                <li>Zinc</li>
-                <li>
-                    <ul>
-                        <li>Bardage</li>
-                        <li>Toiture</li>
-                    </ul>
-                </li>
-                <li>Tuile</li>
-                <li>
-                    <ul>
-                        <li>Plate</li>
-                        <li>Mécanique</li>
-                    </ul>
-                </li>
-                <li>Ardoise</li>
-                <li>
-                    <ul>
-                        <li>Naturelle</li>
-                        <li>Fibro</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <div>
+                        <img src="../image/favicon.png" alt="SARL Pellier" class="icon-application">
+                        <span>SARL Pellier</span>
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Acceuil</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etanchéité <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Sans végétation</a></li>
+                            <li><a href="#">Végétation</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Couverture <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Zinc</li>
+                            <li><a href="#">Bardage</a></li>
+                            <li><a href="#">Toiture</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Tuile</li>
+                            <li><a href="#">Plate</a></li>
+                            <li><a href="#">Mécanique</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Ardoise</li>
+                            <li><a href="#">Naturelle</a></li>
+                            <li><a href="#">Fibro</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Fenêtre de toit</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="tel:+33243237149">
+                            <span class="fa fa-phone" aria-hidden="true"></span><span> : 02 43 23 71 49</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-    </ul>
+<button onclick="topFunction()" id="myBtnTop" title="Retourner en haut">^</button>
+
+<div class="container">
+    <div class="container-body">
+        <figure>
+            <img src="../image/team.jpg" alt="L'équipe de la SARL Pellier" class="img-document">
+            <figcaption class="text-document-right">
+                <h2 class="text-center">SARL Pellier - Zinguerie et couverture</h2>
+                <div class="col-xs-12" style="height:25px;"></div>
+                <p class="text-justify">Société PELLIER : entreprise de couverture, zinc, pose d’ardoises et de tuiles
+                    en terre cuite, Velux et
+                    membranes
+                    EPDM.</p>
+                <p class="text-justify">
+                    Nous aimons travailler avec des matériaux écologiques et entièrement recyclables.
+                    Nous réalisons nos chantiers partout en France.</p>
+            </figcaption>
+        </figure>
+
+        <!-- carroussel -->
+        <h2 class="text-center">Nos réalisations coups de coeur</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <figure class="carousel">
+                        <img src="../image/carousel/epdm-1.jpg" alt="Etanchéité - EPDM" class="carousel">
+                        <figcaption><p class="text-center">Etanchéité - EPDM</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure class="carousel">
+                        <img src="../image/carousel/zinguerie-1.jpg" alt="Zinguerie - bardage" class="carousel">
+                        <figcaption><p class="text-center">Zinguerie - bardage</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure class="carousel">
+                        <img src="../image/carousel/ardoise-1.jpg" alt="Ardoise" class="carousel">
+                        <figcaption><p class="text-center">Ardoise</p></figcaption>
+                        <figure class="carousel">
+                </div>
+
+                <div class="item">
+                    <figure class="carousel">
+                        <img src="../image/carousel/velux-1.jpg" alt="Vélux" class="carousel">
+                        <figcaption><p class="text-center">Vélux</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure class="carousel">
+                        <img src="../image/carousel/deco-1.jpg" alt="Décoration" class="carousel">
+                        <figcaption><p class="text-center">Décoration</p></figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="invisible">.</div>
+
+    <!-- footer -->
+    <footer>
+        <div class="row footer">
+            <div class="col-sm-2">
+                <a href="#">
+                    <p class="small text-center"><span class="fa fa-envelope" aria-hidden="true"></span> Contact</p>
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="#">
+                    <p class="small text-center"><span class="fa fa-book" aria-hidden="true"></span> Mentions Légales
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-4 footer"><p class="small text-center">Copyright 2017 Sarl Pellier. Tous droits
+                réservés.</p></div>
+        </div>
+    </footer>
+
 </div>
-
-<!-- article -->
-<article>
-    <h1>Bienvenue sur le site de l'entreprise Eurl Pellier</h1>
-
-    <p>Société PELLIER : entreprise de couverture, zinc, pose d’ardoises et de tuiles en terre cuite, Velux et membranes
-        EPDM.
-
-        Nous aimons travailler avec des matériaux écologiques et entièrement recyclables.
-        Nous réalisons nos chantiers partout en France.</p>
-    <figure>
-        <img src="../image/favicon.png" alt="The Pulpit Rock" width="304" height="228">
-        <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-    </figure>
-</article>
-
-<!-- carroussel -->
-<div>
-    <ul>
-        <li>
-            <figure>
-                <img src="../image/favicon.png" alt="The Pulpit Rock" width="304" height="228">
-                <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-            </figure>
-        </li>
-        <li>
-            <figure>
-                <img src="../image/favicon.png" alt="The Pulpit Rock" width="304" height="228">
-                <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-            </figure>
-        </li>
-        <li>
-            <figure>
-                <img src="../image/favicon.png" alt="The Pulpit Rock" width="304" height="228">
-                <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-            </figure>
-        </li>
-    </ul>
-</div>
-
-<!-- header -->
-<div>
-    <ul>
-        <li>Copyright 2017 Sarl Pellier. Tous droits réservés.</li>
-        <li>Mentions Légales</li>
-        <li>Contact</li>
-    </ul>
-</div>
-
 </body>
+<script>
+    window.onload = displarNavBar;
+    window.onresize = displarNavBar;
+</script>
 </html>
