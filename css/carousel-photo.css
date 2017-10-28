@@ -1,0 +1,11 @@
+#myDiaporama img {
+    width: 100%;
+    height: auto;
+}
+
+#myDiaporama h3 {
+    background-color: #333333;
+    opacity: 0.75;
+    line-height: 2em;
+    border-radius: 15px;
+}

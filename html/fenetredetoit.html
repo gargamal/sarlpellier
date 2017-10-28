@@ -18,11 +18,7 @@
     <link rel="stylesheet" href="../framework/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/index.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="../javascript/main.js"></script>
-    <script src="../javascript/index.js"></script>
+    <link rel="stylesheet" href="../css/carousel-photo.css">
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
@@ -79,7 +75,7 @@
                 <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
                     <li>
                         <a href="tel:+33243237149">
-                            <span class="fa fa-phone" aria-hidden="true"></span><span> : 02 43 23 71 49</span>
+                            <span class="fa fa-phone" aria-hidden="true"></span><span> 02 43 23 71 49</span>
                         </a>
                     </li>
                 </ul>
@@ -93,8 +89,70 @@
 <div class="container">
     <div class="container-body">
 
-        <div class="invisible">.</div>
+        <h2>Nos fenêtres de toit</h2>
+        <div id="myDiaporama" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myDiaporama" data-slide-to="0" class="active"></li>
+                <li data-target="#myDiaporama" data-slide-to="1"></li>
+                <li data-target="#myDiaporama" data-slide-to="2"></li>
+                <li data-target="#myDiaporama" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <figure>
+                        <img src="../image/fenetredetoit/fenetre-de-toit.jpg" alt="Fenêtre de toit">
+                        <figcaption class="carousel-caption">
+                            <h3>La fenêtre de toit double</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../image/fenetredetoit/verriere-angle-velux-exterieur.jpg" alt="Vérrière d'angle">
+                        <figcaption class="carousel-caption">
+                            <h3>Vérrière d'angle et velux extérieur</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../image/fenetredetoit/volet_roulant_solaire.jpg" alt="Volet roulant">
+                        <figcaption class="carousel-caption">
+                            <h3>Fenêtre de toit avec volet roulant solaire</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../image/fenetredetoit/velux-balcon.jpg" alt="Vélux balcon">
+                        <figcaption class="carousel-caption">
+                            <h3>Vélux transformable en balcon</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myDiaporama" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myDiaporama" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
+
+    <div class="invisible">.</div>
 
     <!-- footer -->
     <footer>
@@ -116,11 +174,16 @@
     </footer>
 </div>
 
-</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../javascript/main.js"></script>
+<script src="../javascript/index.js"></script>
 
 <script>
     window.onload = displarNavBar;
     window.onresize = displarNavBar;
 </script>
+
+</body>
 
 </html>
