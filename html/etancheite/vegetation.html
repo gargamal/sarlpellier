@@ -18,11 +18,7 @@
     <link rel="stylesheet" href="../../framework/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/index.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="../../javascript/main.js"></script>
-    <script src="../../javascript/index.js"></script>
+    <link rel="stylesheet" href="../../css/carousel-photo.css">
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
@@ -46,40 +42,40 @@
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Acceuil</a></li>
+                <ul id="menuNavBar" class="nav navbar-nav">
+                    <li><a href="../index.html">Acceuil</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etanchéité <span
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etanchéité<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Sans végétation</a></li>
+                            <li><a href="sansvegetation.html">Sans végétation</a></li>
                             <li><a href="#">Végétation</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Couverture <span
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Couverture<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header">Zinc</li>
-                            <li><a href="#">Bardage</a></li>
-                            <li><a href="#">Toiture</a></li>
+                            <li><a href="../couverture/zinc/bardage.html">Bardage</a></li>
+                            <li><a href="../couverture/zinc/toiture.html">Toiture</a></li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Tuile</li>
-                            <li><a href="#">Plate</a></li>
-                            <li><a href="#">Mécanique</a></li>
+                            <li><a href="../couverture/tuile/plate.html">Plate</a></li>
+                            <li><a href="../couverture/tuile/mecanique.html">Mécanique</a></li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Ardoise</li>
-                            <li><a href="#">Naturelle</a></li>
-                            <li><a href="#">Fibro</a></li>
+                            <li><a href="../couverture/ardoise/naturelle.html">Naturelle</a></li>
+                            <li><a href="../couverture/ardoise/fibro.html">Fibro</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Fenêtre de toit</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="../fenetredetoit.html">Fenêtre de toit</a></li>
+                    <li><a href="../decors.html">Décors/Objets</a></li>
                 </ul>
                 <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="tel:+33243237149">
-                            <span class="fa fa-phone" aria-hidden="true"></span><span> : 02 43 23 71 49</span>
+                        <a id="phoneNumber" href="tel:+33243237149">
+                            <span class="fa fa-phone" aria-hidden="true"></span><span> 02 43 23 71 49</span>
                         </a>
                     </li>
                 </ul>
@@ -93,8 +89,69 @@
 <div class="container">
     <div class="container-body">
 
-        <div class="invisible">.</div>
+        <h2>EPDM avec végétation</h2>
+        <div id="myDiaporama" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myDiaporama" data-slide-to="0" class="active"></li>
+                <li data-target="#myDiaporama" data-slide-to="1"></li>
+                <li data-target="#myDiaporama" data-slide-to="2"></li>
+                <li data-target="#myDiaporama" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <figure>
+                        <img src="../../image/epdm/epdm-vegetation-1.jpg" alt="EPDM plante">
+                        <figcaption class="carousel-caption">
+                            <h3>EPDM plante</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../../image/epdm/epdm-vegetation-2.jpg" alt="EPDM plante bicolor">
+                        <figcaption class="carousel-caption">
+                            <h3>EPDM plante bicolor</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../../image/epdm/epdm-vegetation-3.jpg" alt="EPDM multi-plante">
+                        <figcaption class="carousel-caption">
+                            <h3>EPDM multi-plante</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../../image/epdm/epdm-vegetation-4.jpg" alt="EPDM plante et cheminée">
+                        <figcaption class="carousel-caption">
+                            <h3>EPDM plante et cheminée</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myDiaporama" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myDiaporama" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
+
+    <div class="invisible">.</div>
 
     <!-- footer -->
     <footer>
@@ -116,11 +173,16 @@
     </footer>
 </div>
 
-</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../../javascript/main.js"></script>
+<script src="../../javascript/index.js"></script>
 
 <script>
-    window.onload = displayNavBar;
-    window.onresize = displayNavBar;
+    window.onload = displayNavBar(1);
+    window.onresize = displayNavBar(1);
 </script>
+
+</body>
 
 </html>
