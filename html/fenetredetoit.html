@@ -26,7 +26,6 @@
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
-
 <body>
 
 <!-- Menu -->
@@ -48,7 +47,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Acceuil</a></li>
+                    <li><a href="index.html">Acceuil</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etanchéité<span
                                 class="caret"></span></a>
@@ -74,7 +73,7 @@
                             <li><a href="couverture/ardoise/fibro.html">Fibro</a></li>
                         </ul>
                     </li>
-                    <li><a href="fenetredetoit.html">Fenêtre de toit</a></li>
+                    <li class="active"><a href="#">Fenêtre de toit</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
@@ -93,98 +92,20 @@
 
 <div class="container">
     <div class="container-body">
-        <figure class="presentation">
-            <img src="../image/team.jpg" alt="L'équipe de la SARL Pellier" class="img-document">
-            <figcaption class="text-document-right">
-                <div class="logo-pellier-img">
-                    <img src="../image/logopellier.png" alt="SARL Pellier - Zinguerie et couverture" class="logo-pellier-img">
-                </div>
-                <h2 class="text-center logo-pellier-text">SARL Pellier - Zinguerie et couverture</h2>
-                <div id="mySpaceLine" class="col-xs-12"></div>
-                <p class="text-justify">Société PELLIER : entreprise de couverture, zinc, pose d’ardoises et de tuiles
-                    en terre cuite, Velux et
-                    membranes
-                    EPDM.</p>
-                <p class="text-justify">
-                    Nous aimons travailler avec des matériaux écologiques et entièrement recyclables.
-                    Nous réalisons nos chantiers partout en France.</p>
-            </figcaption>
-        </figure>
 
-        <!-- carroussel -->
-        <h2 class="text-center">Nos réalisations coups de coeur</h2>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <figure class="carousel">
-                        <img src="../image/carousel/epdm-1.jpg" alt="Etanchéité - EPDM"cat /etc/passwdcat  class="carousel">
-                        <figcaption><p class="text-center">Etanchéité - EPDM</p></figcaption>
-                    </figure>
-                </div>
-                <div class="item">
-                    <figure class="carousel">
-                        <img src="../image/carousel/zinguerie-1.jpg" alt="Zinguerie - bardage" class="carousel">
-                        <figcaption><p class="text-center">Zinguerie - bardage</p></figcaption>
-                    </figure>
-                </div>
-
-                <div class="item">
-                    <figure class="carousel">
-                        <img src="../image/carousel/ardoise-1.jpg" alt="Ardoise" class="carousel">
-                        <figcaption><p class="text-center">Ardoise</p></figcaption>
-                    </figure>
-                </div>
-
-                <div class="item">
-                    <figure class="carousel">
-                        <img src="../image/carousel/velux-1.jpg" alt="Vélux" class="carousel">
-                        <figcaption><p class="text-center">Vélux</p></figcaption>
-                    </figure>
-                </div>
-
-                <div class="item">
-                    <figure class="carousel">
-                        <img src="../image/carousel/deco-1.jpg" alt="Décoration" class="carousel">
-                        <figcaption><p class="text-center">Décoration</p></figcaption>
-                    </figure>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+        <div class="invisible">.</div>
     </div>
-
-    <div class="invisible">.</div>
 
     <!-- footer -->
     <footer>
         <div class="row footer">
             <div class="col-sm-2">
-                <a href="contact.html">
+                <a href="#">
                     <p class="small text-center"><span class="fa fa-envelope" aria-hidden="true"></span> Contact</p>
                 </a>
             </div>
             <div class="col-sm-2">
-                <a href="mentionslegales.html">
+                <a href="#">
                     <p class="small text-center"><span class="fa fa-book" aria-hidden="true"></span> Mentions Légales
                     </p>
                 </a>
@@ -193,11 +114,13 @@
                 réservés.</p></div>
         </div>
     </footer>
-
 </div>
+
 </body>
+
 <script>
     window.onload = displarNavBar;
     window.onresize = displarNavBar;
 </script>
+
 </html>

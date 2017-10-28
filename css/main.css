@@ -25,46 +25,41 @@
     vertical-align: middle;
 }
 
-.img-document{
+.img-document {
     float: left;
     display: block;
     margin-left: 10px;
     margin-right: auto;
-    width: 300px;
-}
-
-.text-document-right {
-    padding: 10px;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle;
+    width: 350px;
 }
 
 h2 {
-    font-size: large;
+    font-size: x-large;
     font-weight: 600;
     border-bottom: solid 1px #00a3d9;
+    color: #00a3d9;
 }
 
-h3{
+h3 {
     font-size: large;
     font-weight: 400;
 }
 
-figure {
-    min-height: 320px;
+body {
+    background: gainsboro url('../image/backgroud.jpg') no-repeat;
+    background-size: 100%;
 }
 
-body,
 .container {
     background-color: gainsboro;
 }
 
-.container-body{
-    padding:0px 30px 0px 30px;
+.container-body {
+    margin-top: 20px;
+    padding: 0 30px 0 30px;
 }
 
-.row.footer{
+.row.footer {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -89,6 +84,40 @@ div.invisible {
     float: right;
 }
 
+.navbar-inverse {
+    margin-bottom: 0;
+    background-color: #333;
+}
+
+.dropdown-menu {
+    background-color: #333;
+    color: gainsboro;
+}
+
+.dropdown-menu li > a {
+    color: gainsboro;
+}
+
+.dropdown-menu > li {
+    padding: 5px;
+}
+
+.dropdown-menu li > a:hover {
+    background: gainsboro;
+}
+
+.dropdown-menu .divider {
+    padding: 0;
+    background-color: #00a3d9;
+}
+
+.dropdown-header {
+    font-weight: 400;
+    font-size: smaller;
+    font-style: oblique;
+    color: #00a3d9;
+}
+
 @media screen and (min-width: 1025px) {
     .navbar-inverse, .container, .row {
         width: 1024px;
@@ -98,6 +127,10 @@ div.invisible {
 }
 
 @media (max-width: 992px) {
+    body {
+        background-color: gainsboro;
+    }
+
     /*
      * Nav bar
      */
@@ -146,11 +179,16 @@ div.invisible {
         display: block !important;
     }
 
-    .img-document{
+    .img-document {
         float: inherit;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
         width: 75%;
+    }
+
+    .container-body {
+        padding: 0 10px 0 10px;
     }
 }
