@@ -22,7 +22,8 @@
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
-<body>
+
+<body onresize="Display().navBar(1)">
 
 <!-- Menu -->
 <header>
@@ -70,14 +71,9 @@
                         </ul>
                     </li>
                     <li><a href="../fenetredetoit.html">Fenêtre de toit</a></li>
-                    <li><a href="../decors.html">Décors/Objets</a></li>
+                    <li><a href="../decors.html">Décors</a></li>
                 </ul>
                 <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
-                    <li>
-                        <a id="phoneNumber" href="tel:+33243237149">
-                            <span class="fa fa-phone" aria-hidden="true"></span><span> 02 43 23 71 49</span>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -90,6 +86,15 @@
     <div class="container-body">
 
         <h2>EPDM avec végétation</h2>
+        <p class="text-justify">
+            Notre entreprise pose également des membranes EPDM, véritable solution durable d’étanchéité pour les
+            toitures plates ou à faibles pentes. La membrane reste stable au fil des années, elle a une haute résistance
+            à l’oxydation, aux intempéries, à la lumière et au froid.
+        </p>
+        <p class="text-justify">
+            La membrane est applicable à froid, il n’y a donc pas de risque d’incendie. Ce système d’étanchéité est
+            totalement écologique et recyclable.
+        </p>
         <div id="myDiaporama" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -179,8 +184,7 @@
 <script src="../../javascript/index.js"></script>
 
 <script>
-    window.onload = displayNavBar(1);
-    window.onresize = displayNavBar(1);
+    window.onload = Display().navBar(1);
 </script>
 
 </body>

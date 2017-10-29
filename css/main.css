@@ -51,8 +51,7 @@ html {
 }
 
 body {
-    background: gainsboro url('../image/backgroud.jpg') no-repeat center center fixed;
-    background-size: 100%;
+    background: gainsboro;
 }
 
 .container {
@@ -129,13 +128,14 @@ div.invisible {
         margin-left: auto;
         margin-right: auto;
     }
+
+    body {
+        background: gainsboro url('../image/backgroud.jpg') no-repeat center center fixed;
+        background-size: 100%;
+    }
 }
 
 @media (max-width: 992px) {
-    body {
-        background-color: gainsboro;
-    }
-
     /*
      * Nav bar
      */

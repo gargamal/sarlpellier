@@ -20,11 +20,10 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/carousel-index.css">
 
-
     <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
 
-<body>
+<body onresize="Display().navBar(0)">
 
 <!-- Menu -->
 <header>
@@ -72,14 +71,9 @@
                         </ul>
                     </li>
                     <li><a href="fenetredetoit.html">Fenêtre de toit</a></li>
-                    <li><a href="decors.html">Décors/Objets</a></li>
+                    <li><a href="decors.html">Décors</a></li>
                 </ul>
                 <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
-                    <li>
-                        <a id="phoneNumber" href="tel:+33243237149">
-                            <span class="fa fa-phone" aria-hidden="true"></span><span> 02 43 23 71 49</span>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -126,7 +120,9 @@
             <div class="carousel-inner">
                 <div class="item active">
                     <figure class="carousel">
-                        <img src="../image/carousel/epdm-1.jpg" alt="Etanchéité - EPDM" class="carousel">
+                        <a href="etancheite/sansvegetation.html">
+                            <img src="../image/carousel/epdm-1.jpg" alt="Etanchéité - EPDM" class="carousel">
+                        </a>
                         <figcaption><p class="text-center">Etanchéité - EPDM</p></figcaption>
                     </figure>
                 </div>
@@ -204,8 +200,7 @@
 <script src="../javascript/index.js"></script>
 
 <script>
-    window.onload = displayNavBar(0);
-    window.onresize = displayNavBar(0);
+    window.onload = Display().navBar(0);
 </script>
 
 </body>
