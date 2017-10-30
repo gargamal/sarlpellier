@@ -29,7 +29,7 @@ function Display() {
             if (!myContactMe) {
                 var limyContactMe = document.createElement("li");
                 limyContactMe.id = "myContactMe";
-                limyContactMe.innerHTML = "<a href='#'><span class='fa fa-envelope' aria-hidden='true'></span><span> contactez nous</span></a>";
+                limyContactMe.innerHTML = "<a href='../html/contact.html'><span class='fa fa-envelope' aria-hidden='true'></span><span> contactez nous</span></a>";
                 myLinkNavBar.appendChild(limyContactMe);
             }
 
@@ -49,12 +49,16 @@ function Display() {
 
             phoneNumber.innerHTML = "<a href='#'><span class='fa fa-phone' aria-hidden='true'></span></a>";
 
-            var nivBar = document.getElementById("menuNavBar");
-            var liMenu = nivBar.getElementsByTagName("li");
-            for (var i = 0; i < liMenu.length; i++) {
-                if (i === index) {
-                    liMenu[i].setAttribute("class", "active");
-                    break;
+            if (index === 100) {
+                limyContactMe.setAttribute("class", "active");
+            } else {
+                var nivBar = document.getElementById("menuNavBar");
+                var liMenu = nivBar.getElementsByTagName("li");
+                for (var i = 0; i < liMenu.length; i++) {
+                    if (i === index) {
+                        liMenu[i].setAttribute("class", "active");
+                        break;
+                    }
                 }
             }
         }
