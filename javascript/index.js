@@ -36,14 +36,14 @@ function Display() {
             if (!myTwitterLink) {
                 var liTwitterLink = document.createElement("li");
                 liTwitterLink.id = "myTwitterLink";
-                liTwitterLink.innerHTML = "<a href='#'><span class='fa fa-twitter' aria-hidden='true'></span></a>";
+                liTwitterLink.innerHTML = "<a href='https://twitter.com/EurlPellier' target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a>";
                 myLinkNavBar.appendChild(liTwitterLink);
             }
 
             if (!myFacebookLink) {
                 var liFacebookLink = document.createElement("li");
                 liFacebookLink.id = "myFacebookLink";
-                liFacebookLink.innerHTML = "<a href='#'><span class='fa fa-facebook-official' aria-hidden='true'></span></a>";
+                liFacebookLink.innerHTML = "<a href='https://www.facebook.com/fabrice.pellier.3?fref=ts' target='_blank'><span class='fa fa-facebook-official' aria-hidden='true'></span></a>";
                 myLinkNavBar.appendChild(liFacebookLink);
             }
 
