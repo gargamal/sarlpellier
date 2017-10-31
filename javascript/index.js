@@ -1,9 +1,17 @@
 function Display() {
     var createPhoneNumber = function (myLinkNavBar) {
-        var phoneNumber = document.createElement("li");
-        phoneNumber.id = "myPhoneNumber";
-        myLinkNavBar.appendChild(phoneNumber);
-        return phoneNumber;
+        var liPhoneNumber = document.createElement("li");
+        liPhoneNumber.id = "myPhoneNumber";
+        myLinkNavBar.appendChild(liPhoneNumber);
+        return liPhoneNumber;
+    };
+
+    var createContactMe = function (myLinkNavBar) {
+        var liContactMe = document.createElement("li");
+        liContactMe.id = "myContactMe";
+        liContactMe.innerHTML = "<a href='../html/contact.html'><span class='fa fa-envelope' aria-hidden='true'></span><span> contactez nous</span></a>";
+        myLinkNavBar.appendChild(liContactMe);
+        return liContactMe;
     };
 
     var fctNavBar = function (index) {
@@ -15,24 +23,20 @@ function Display() {
         if (!phoneNumber) {
             phoneNumber = createPhoneNumber(myLinkNavBar);
         }
+        if (!myContactMe) {
+            myContactMe = createContactMe(myLinkNavBar);
+        }
 
         if (window.innerWidth < 993) {
-            if (myContactMe || myTwitterLink || myFacebookLink) {
-                myContactMe.parentNode.removeChild(myContactMe);
+            if (myTwitterLink) {
                 myTwitterLink.parentNode.removeChild(myTwitterLink);
+            }
+            if (myFacebookLink) {
                 myFacebookLink.parentNode.removeChild(myFacebookLink);
             }
 
             phoneNumber.innerHTML = "<a href='tel:+33243237149'><span class='fa fa-phone' aria-hidden='true'></span><span> 02 43 23 71 49</span></a>";
-
         } else if (window.innerWidth >= 993) {
-            if (!myContactMe) {
-                var limyContactMe = document.createElement("li");
-                limyContactMe.id = "myContactMe";
-                limyContactMe.innerHTML = "<a href='../html/contact.html'><span class='fa fa-envelope' aria-hidden='true'></span><span> contactez nous</span></a>";
-                myLinkNavBar.appendChild(limyContactMe);
-            }
-
             if (!myTwitterLink) {
                 var liTwitterLink = document.createElement("li");
                 liTwitterLink.id = "myTwitterLink";
@@ -50,7 +54,7 @@ function Display() {
             phoneNumber.innerHTML = "<a href='#'><span class='fa fa-phone' aria-hidden='true'></span></a>";
 
             if (index === 100) {
-                limyContactMe.setAttribute("class", "active");
+                liContactMe.setAttribute("class", "active");
             } else {
                 var nivBar = document.getElementById("menuNavBar");
                 var liMenu = nivBar.getElementsByTagName("li");

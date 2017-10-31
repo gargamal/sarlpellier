@@ -11,14 +11,13 @@
     <meta name="author" content="Daniel PELLIER" lang="fr"/>
 
     <meta name="description"
-          content="Fabrice PELLIER et son équipe sont des artisans couvreur et zingueur. Ils vous proposant leur service dans la Sarthe et les environs."/>
+          content="Contactez Fabrice PELLIER et son équipe."/>
     <meta name="keywords" content="couverture,zinguerie,72,sarthe"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../framework/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/carousel-index.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
 </head>
@@ -84,35 +83,86 @@
 
 <div class="container">
     <div class="container-body">
+        <form>
+            <legend><h2><span class="icon-office"></span><span class="title-office"> SARL Pellier Fabrice</span></h2>
+            </legend>
+            <address>
+                ZA Les Petites Forges<br>
+                72380 Joué l’Abbé<br>
+                <abbr title="Téléphone">Tél:</abbr>
+                <a class="phone-office" href='tel:+33243237149'>02 43 23 71 49</a>
+            </address>
+        </form>
 
-        <h2 class="text-center logo-pellier-text">Formualire de contact ... en construction</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2664.730463687106!2d0.2405987!3d48.096143100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sza+les+petites+forges%2C+jou%C3%A9+l'abb%C3%A9!5e0!3m2!1sfr!2sfr!4v1442582197459"
+                class="GoogleMap" allowfullscreen="" frameborder="0"></iframe>
 
-        <p class="text-justify">A faire localisation google + formulaire de contact</p>
-
-        <div class="invisible">.</div>
-
-        <!-- footer -->
-        <footer>
-            <div class="row footer">
-                <div class="col-sm-2">
-                    <a href="contact.html">
-                        <p class="small text-center"><span class="fa fa-envelope" aria-hidden="true"></span> Contact
-                        </p>
-                    </a>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom (requis)</label>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="fa fa-user-circle"></span>
+                    </span>
+                    <input type="text" class="form-control" id="name" placeholder="Nom - prénom"
+                           required="required"/>
                 </div>
-                <div class="col-sm-2">
-                    <a href="mentionslegales.html">
-                        <p class="small text-center"><span class="fa fa-book" aria-hidden="true"></span> Mentions
-                            Légales
-                        </p>
-                    </a>
-                </div>
-                <div class="col-sm-4 footer"><p class="small text-center">Copyright 2017 Sarl Pellier. Tous droits
-                    réservés.</p></div>
             </div>
-        </footer>
+            <div class="form-group">
+                <label for="email">Adresse Email (requis)</label>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="fa fa-envelope"></span>
+                    </span>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="nom.prenom@dom.fr"
+                           required="required"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Téléphone</label>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="fa fa-phone"></span>
+                    </span>
+                    <input type="tel" class="form-control" id="phone" placeholder="06050400302"
+                           title="numéro de téléphone"
+                           pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name">Message (requis)</label>
+                <textarea name="message" id="message" class="form-control" rows="9" cols="25"
+                          required="required" placeholder="Message"></textarea>
+            </div>
 
+            <button type="submit" class="btn btn-primary" id="btnContactUs">
+                Envoyer Message
+            </button>
+        </form>
     </div>
+
+
+    <div class="invisible">.</div>
+
+    <!-- footer -->
+    <footer>
+        <div class="row footer">
+            <div class="col-sm-2">
+                <a href="contact.html">
+                    <p class="small text-center"><span class="fa fa-envelope" aria-hidden="true"></span> Contact</p>
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="mentionslegales.html">
+                    <p class="small text-center"><span class="fa fa-book" aria-hidden="true"></span> Mentions Légales
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-4 footer"><p class="small text-center">Copyright 2017 Sarl Pellier. Tous droits
+                réservés.</p></div>
+        </div>
+    </footer>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
