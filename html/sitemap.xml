@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/#</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/index.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/etancheite/sansvegetation.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/etancheite/vegetation.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/zinc/bardage.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/zinc/toiture.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/tuile/plate.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/tuile/mecanique.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/ardoise/naturelle.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/ardoise/fibro.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/fenetredetoit.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/decors.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/contact.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://pellierdaniel.ddns.net:8081/html/mentionslegales.html</loc>
+        <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+
+</urlset>
