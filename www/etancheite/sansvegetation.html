@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <link rel="icon" href="../../../image/favicon.png"/>
+    <link rel="icon" href="../image/favicon.png"/>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -11,18 +11,28 @@
     <meta name="author" content="Daniel PELLIER" lang="fr"/>
 
     <meta name="description"
-          content="Fabrice PELLIER et son équipe vous propose de visualiser leur réalisation de toiture en tuile plate."/>
+          content="Fabrice PELLIER et son équipe vous propose de visualiser leur travaux d'étanchéité avec l'EPDM."/>
     <meta name="keywords" content="couverture,zinguerie,72,sarthe"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../framework/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../../css/main.css">
-    <link rel="stylesheet" href="../../../css/carousel-photo.css">
+    <link rel="stylesheet" href="../framework/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/carousel-photo.css">
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109844314-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109844314-1');
+    </script>
 </head>
 
-<body onresize="Display().navBar(4)">
+<body onresize="Display().navBar(1)">
 
 <!-- Menu -->
 <header>
@@ -34,22 +44,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../../index.html">
+                <a class="navbar-brand" href="../index.html">
                     <div>
-                        <img src="../../../image/favicon.png" alt="SARL Pellier" class="icon-application">
+                        <img src="../image/favicon.png" alt="SARL Pellier" class="icon-application">
                         <span>SARL Pellier</span>
                     </div>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul id="menuNavBar" class="nav navbar-nav">
-                    <li><a href="../../index.html">Acceuil</a></li>
+                    <li><a href="../index.html">Acceuil</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etanchéité<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../../etancheite/sansvegetation.html">Sans végétation</a></li>
-                            <li><a href="../../etancheite/vegetation.html">Végétation</a></li>
+                            <li><a href="#">Sans végétation</a></li>
+                            <li><a href="vegetation.html">Végétation</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -57,20 +67,20 @@
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header">Zinc</li>
-                            <li><a href="../zinc/bardage.html">Bardage</a></li>
-                            <li><a href="../zinc/toiture.html">Toiture</a></li>
+                            <li><a href="../couverture/zinc/bardage.html">Bardage</a></li>
+                            <li><a href="../couverture/zinc/toiture.html">Toiture</a></li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Tuile</li>
-                            <li><a href="#">Plate</a></li>
-                            <li><a href="mecanique.html">Mécanique</a></li>
+                            <li><a href="../couverture/tuile/plate.html">Plate</a></li>
+                            <li><a href="../couverture/tuile/mecanique.html">Mécanique</a></li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Ardoise</li>
-                            <li><a href="../ardoise/naturelle.html">Naturelle</a></li>
-                            <li><a href="../ardoise/fibro.html">Fibro</a></li>
+                            <li><a href="../couverture/ardoise/naturelle.html">Naturelle</a></li>
+                            <li><a href="../couverture/ardoise/fibro.html">Fibro</a></li>
                         </ul>
                     </li>
-                    <li><a href="../../fenetredetoit.html">Fenêtre de toit</a></li>
-                    <li><a href="../../decors.html">Décors</a></li>
+                    <li><a href="../fenetredetoit.html">Fenêtre de toit</a></li>
+                    <li><a href="../decors.html">Décors</a></li>
                 </ul>
                 <ul id="myLinkNavBar" class="nav navbar-nav navbar-right">
                 </ul>
@@ -84,15 +94,22 @@
 <div class="container">
     <div class="container-body">
 
-        <h2>Tuiles plates</h2>
+        <h2>EPDM brut et minéral</h2>
         <p class="text-justify">
-            Les tuiles plates traditionnelle.
+            Notre entreprise pose également des membranes EPDM, véritable solution durable d’étanchéité pour les
+            toitures plates ou à faibles pentes. La membrane reste stable au fil des années, elle a une haute résistance
+            à l’oxydation, aux intempéries, à la lumière et au froid.
+        </p>
+        <p class="text-justify">
+            La membrane est applicable à froid, il n’y a donc pas de risque d’incendie. Ce système d’étanchéité est
+            totalement écologique et recyclable.
         </p>
         <div id="myDiaporama" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myDiaporama" data-slide-to="0" class="active"></li>
                 <li data-target="#myDiaporama" data-slide-to="1"></li>
+                <li data-target="#myDiaporama" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -100,18 +117,27 @@
 
                 <div class="item active">
                     <figure>
-                        <img src="../../../image/couverture/tuiles/plate/tuile-plate-1.jpg" alt="tuile plate">
+                        <img src="../image/epdm/epdm-brut-1.jpg" alt="EPDM brut">
                         <figcaption class="carousel-caption">
-                            <h3>tuile plate</h3>
+                            <h3>EPDM brut</h3>
                         </figcaption>
                     </figure>
                 </div>
 
                 <div class="item">
                     <figure>
-                        <img src="../../../image/couverture/tuiles/plate/tuile-plate-2.jpg" alt="tuile plate">
+                        <img src="../image/epdm/epdm-brut-2.jpg" alt="EPDM brut">
                         <figcaption class="carousel-caption">
-                            <h3>tuile plate</h3>
+                            <h3>EPDM brut</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="item">
+                    <figure>
+                        <img src="../image/epdm/epdm-gravier-1.jpg" alt="EPDM gravier">
+                        <figcaption class="carousel-caption">
+                            <h3>EPDM gravier</h3>
                         </figcaption>
                     </figure>
                 </div>
@@ -136,12 +162,12 @@
     <footer>
         <div class="row footer">
             <div class="col-sm-2">
-                <a href="../../contact.html">
+                <a href="../contact.html">
                     <p class="small text-center"><span class="fa fa-envelope" aria-hidden="true"></span> Contact</p>
                 </a>
             </div>
             <div class="col-sm-2">
-                <a href="../../mentionslegales.html">
+                <a href="../mentionslegales.html">
                     <p class="small text-center"><span class="fa fa-book" aria-hidden="true"></span> Mentions Légales
                     </p>
                 </a>
@@ -154,11 +180,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../../../javascript/main.js"></script>
-<script src="../../../javascript/index.js"></script>
+<script src="../javascript/main.js"></script>
+<script src="../javascript/index.js"></script>
 
 <script>
-    window.onload = Display().navBar(4);
+    window.onload = Display().navBar(1);
 </script>
 
 </body>

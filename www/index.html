@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <link rel="icon" href="../image/favicon.png"/>
+    <link rel="icon" href="image/favicon.png"/>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -15,12 +15,22 @@
     <meta name="keywords" content="couverture,zinguerie,72,sarthe"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../framework/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/carousel-index.css">
+    <link rel="stylesheet" href="framework/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/carousel-index.css">
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109844314-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109844314-1');
+    </script>
 </head>
 
 <body onresize="Display().navBar(0)">
@@ -37,7 +47,7 @@
                 </button>
                 <a class="navbar-brand" href="#">
                     <div>
-                        <img src="../image/favicon.png" alt="SARL Pellier" class="icon-application">
+                        <img src="image/favicon.png" alt="SARL Pellier" class="icon-application">
                         <span>SARL Pellier</span>
                     </div>
                 </a>
@@ -85,10 +95,10 @@
 <div class="container">
     <div class="container-body">
         <figure class="presentation">
-            <img src="../image/team.jpg" alt="L'équipe de la SARL Pellier" class="img-document">
+            <img src="image/team.jpg" alt="L'équipe de la SARL Pellier" class="img-document">
             <figcaption class="text-document-right">
                 <div class="logo-pellier-img">
-                    <img src="../image/logopellier.png" alt="SARL Pellier - Zinguerie et couverture"
+                    <img src="image/logopellier.png" alt="SARL Pellier - Zinguerie et couverture"
                          class="logo-pellier-img">
                 </div>
                 <h2 class="text-center logo-pellier-text">SARL Pellier - Zinguerie et couverture</h2>
@@ -121,7 +131,7 @@
                 <div class="item active">
                     <figure class="carousel">
                         <a href="etancheite/sansvegetation.html">
-                            <img src="../image/carousel/epdm-1.jpg" alt="Etanchéité - EPDM" class="carousel">
+                            <img src="image/carousel/epdm-1.jpg" alt="Etanchéité - EPDM" class="carousel">
                         </a>
                         <figcaption><p class="text-center">Etanchéité - EPDM</p></figcaption>
                     </figure>
@@ -129,7 +139,7 @@
                 <div class="item">
                     <figure class="carousel">
                         <a href="couverture/zinc/bardage.html">
-                            <img src="../image/carousel/zinguerie-1.jpg" alt="Zinguerie - bardage" class="carousel">
+                            <img src="image/carousel/zinguerie-1.jpg" alt="Zinguerie - bardage" class="carousel">
                         </a>
                         <figcaption><p class="text-center">Zinguerie - bardage</p></figcaption>
                     </figure>
@@ -138,7 +148,7 @@
                 <div class="item">
                     <figure class="carousel">
                         <a href="couverture/ardoise/naturelle.html">
-                            <img src="../image/carousel/ardoise-1.jpg" alt="Ardoise" class="carousel">
+                            <img src="image/carousel/ardoise-1.jpg" alt="Ardoise" class="carousel">
                         </a>
                         <figcaption><p class="text-center">Ardoise</p></figcaption>
                     </figure>
@@ -147,7 +157,7 @@
                 <div class="item">
                     <figure class="carousel">
                         <a href="fenetredetoit.html">
-                            <img src="../image/carousel/velux-1.jpg" alt="Vélux" class="carousel">
+                            <img src="image/carousel/velux-1.jpg" alt="Vélux" class="carousel">
                         </a>
                         <figcaption><p class="text-center">Vélux</p></figcaption>
                     </figure>
@@ -156,7 +166,7 @@
                 <div class="item">
                     <figure class="carousel">
                         <a href="decors.html">
-                            <img src="../image/carousel/deco-1.jpg" alt="Décoration" class="carousel">
+                            <img src="image/carousel/deco-1.jpg" alt="Décoration" class="carousel">
                         </a>
                         <figcaption><p class="text-center">Décoration</p></figcaption>
                     </figure>
@@ -200,8 +210,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../javascript/main.js"></script>
-<script src="../javascript/index.js"></script>
+<script src="javascript/main.js"></script>
+<script src="javascript/index.js"></script>
 
 <script>
     window.onload = Display().navBar(0);

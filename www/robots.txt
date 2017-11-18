@@ -1,0 +1,5 @@
+# bloque l'indexation pour les robots
+Sitemap: http://sarl-pellier-fabrice.fr/sitemap.xml
+User-agent: *
+Disallow: /
+Allow: /

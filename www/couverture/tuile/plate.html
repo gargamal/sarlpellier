@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <link rel="icon" href="../../../image/favicon.png"/>
+    <link rel="icon" href="../../image/favicon.png"/>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -11,15 +11,25 @@
     <meta name="author" content="Daniel PELLIER" lang="fr"/>
 
     <meta name="description"
-          content="Fabrice PELLIER et son équipe vous propose de visualiser leur réalisation de toiture en ardoise fibro / synthétique."/>
+          content="Fabrice PELLIER et son équipe vous propose de visualiser leur réalisation de toiture en tuile plate."/>
     <meta name="keywords" content="couverture,zinguerie,72,sarthe"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../framework/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../../css/main.css">
-    <link rel="stylesheet" href="../../../css/carousel-photo.css">
+    <link rel="stylesheet" href="../../framework/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/carousel-photo.css">
 
     <title>SARL Pellier - Couverture et Zinguerie</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109844314-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109844314-1');
+    </script>
 </head>
 
 <body onresize="Display().navBar(4)">
@@ -36,7 +46,7 @@
                 </button>
                 <a class="navbar-brand" href="../../index.html">
                     <div>
-                        <img src="../../../image/favicon.png" alt="SARL Pellier" class="icon-application">
+                        <img src="../../image/favicon.png" alt="SARL Pellier" class="icon-application">
                         <span>SARL Pellier</span>
                     </div>
                 </a>
@@ -61,12 +71,12 @@
                             <li><a href="../zinc/toiture.html">Toiture</a></li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Tuile</li>
-                            <li><a href="../tuile/plate.html">Plate</a></li>
-                            <li><a href="../tuile/mecanique.html">Mécanique</a></li>
+                            <li><a href="#">Plate</a></li>
+                            <li><a href="mecanique.html">Mécanique</a></li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Ardoise</li>
-                            <li><a href="naturelle.html">Naturelle</a></li>
-                            <li><a href="#">Fibro</a></li>
+                            <li><a href="../ardoise/naturelle.html">Naturelle</a></li>
+                            <li><a href="../ardoise/fibro.html">Fibro</a></li>
                         </ul>
                     </li>
                     <li><a href="../../fenetredetoit.html">Fenêtre de toit</a></li>
@@ -84,9 +94,9 @@
 <div class="container">
     <div class="container-body">
 
-        <h2>Ardoise artificielle/fibro</h2>
+        <h2>Tuiles plates</h2>
         <p class="text-justify">
-            Immitation ardoise pour les budgets serrés.
+            Les tuiles plates traditionnelle.
         </p>
         <div id="myDiaporama" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -100,18 +110,18 @@
 
                 <div class="item active">
                     <figure>
-                        <img src="../../../image/couverture/ardoise/fibro/ardoise-fibro-1.jpg" alt="ardoise fibro">
+                        <img src="../../image/couverture/tuiles/plate/tuile-plate-1.jpg" alt="tuile plate">
                         <figcaption class="carousel-caption">
-                            <h3>Ardoise fibro</h3>
+                            <h3>tuile plate</h3>
                         </figcaption>
                     </figure>
                 </div>
 
                 <div class="item">
                     <figure>
-                        <img src="../../../image/couverture/ardoise/fibro/ardoise-fibro-2.png" alt="ardoise fibro">
+                        <img src="../../image/couverture/tuiles/plate/tuile-plate-2.jpg" alt="tuile plate">
                         <figcaption class="carousel-caption">
-                            <h3>Ardoise fibro</h3>
+                            <h3>tuile plate</h3>
                         </figcaption>
                     </figure>
                 </div>
@@ -154,8 +164,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../../../javascript/main.js"></script>
-<script src="../../../javascript/index.js"></script>
+<script src="../../javascript/main.js"></script>
+<script src="../../javascript/index.js"></script>
 
 <script>
     window.onload = Display().navBar(4);

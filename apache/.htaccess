@@ -2,7 +2,7 @@ RewriteEngine On
 
 #Hot link prevention techniques
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://(www\.)?pellierdaniel.ddns.net:8081/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?sarl-pellier-fabrice.fr/.*$ [NC]
 RewriteRule \.(gif|jpg|png|css)$ - [F]
 
 #Preventing requests with invalid characters

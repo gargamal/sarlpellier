@@ -9,7 +9,7 @@ function Display() {
     var createContactMe = function (myLinkNavBar) {
         var liContactMe = document.createElement("li");
         liContactMe.id = "myContactMe";
-        liContactMe.innerHTML = "<a href='../html/contact.html'><span class='fa fa-envelope' aria-hidden='true'></span><span> contactez nous</span></a>";
+        liContactMe.innerHTML = "<a href='contact.html'><span class='fa fa-envelope' aria-hidden='true'></span><span> contactez nous</span></a>";
         myLinkNavBar.appendChild(liContactMe);
         return liContactMe;
     };

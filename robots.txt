@@ -1,5 +1,0 @@
-# bloque l'indexation pour les robots
-Sitemap: http://pellierdaniel.ddns.net:8081/html/sitemap.xml
-User-agent: *
-Disallow: /framework/
-Allow: /

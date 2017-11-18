@@ -6,105 +6,105 @@
             https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/</loc>
+        <loc>http://sarl-pellier-fabrice.fr/</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/#</loc>
+        <loc>http://sarl-pellier-fabrice.fr/#</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/index.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/index.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/etancheite/sansvegetation.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/etancheite/sansvegetation.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/etancheite/vegetation.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/etancheite/vegetation.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/zinc/bardage.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/couverture/zinc/bardage.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/zinc/toiture.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/couverture/zinc/toiture.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/tuile/plate.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/couverture/tuile/plate.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/tuile/mecanique.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/couverture/tuile/mecanique.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/ardoise/naturelle.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/couverture/ardoise/naturelle.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/couverture/ardoise/fibro.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/couverture/ardoise/fibro.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/fenetredetoit.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/fenetredetoit.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/decors.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/decors.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/contact.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/contact.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://pellierdaniel.ddns.net:8081/html/mentionslegales.html</loc>
+        <loc>http://sarl-pellier-fabrice.fr/mentionslegales.html</loc>
         <lastmod>2017-01-11T00:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
