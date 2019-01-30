@@ -130,7 +130,7 @@ div.invisible {
     }
 
     body {
-        background: gainsboro url('../image/backgroud.jpg') no-repeat center center fixed;
+        background: gainsboro url('../image/background.jpg') no-repeat center center fixed;
         background-size: 100%;
     }
 }
